@@ -246,7 +246,7 @@ void setup() {
   Bridge.begin();
 
   // Initialize serial communication
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   // Allow App Lab connection to initialize
   delay(1500);
